@@ -14,13 +14,21 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Gerar cobrinha azul petróleo com grid cinza claro
+      - name: Gerar cobrinha azul petróleo 🐍💙 com grid cinza claro
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          output_branch: output
-          output_path: dist/github-contribution-grid-snake.gif
-          color_snake: "#355e6b"
-          color_dots: "#eeeeee,#dddddd,#cccccc,#bbbbbb,#aaaaaa"
+          outputs: |
+            dist/github-snake.svg?color_snake=#355e6b&color_dots=#eeeeee,#dddddd,#cccccc,#bbbbbb,#aaaaaa
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#355e6b
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Empurrar SVGs para a branch output via GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
