@@ -14,3 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+It name is Niki, and I will try to come feed her whenever as possible.
+
+### 🐍 Snake comendo contribuições:
+
+![Snake animation](https://raw.githubusercontent.com/GabrielaRSLuz/GabrielaRSLuz/output/github-contribution-grid-snake.svg)
