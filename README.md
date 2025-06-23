@@ -15,7 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-It name is Niki, and I will try to come feed her whenever as possible.
+It's name is Niki, and I will try to come feed her whenever as possible.
+Seu nome é Niki, e eu vou tentar vir alimentá-la sempre que possivel.
 
 ![Snake animation](https://raw.githubusercontent.com/GabrielaRSLuz/GabrielaRSLuz/output/github-snake.svg)
 
