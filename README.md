@@ -17,5 +17,4 @@ Here are some ideas to get you started:
 
 It name is Niki, and I will try to come feed her whenever as possible.
 
-
-![Snake animation](https://raw.githubusercontent.com/GabrielaRSLuz/GabrielaRSLuz/output/dist/github-contribution-grid-snake.gif)
+![Snake animation](https://raw.githubusercontent.com/GabrielaRSLuz/GabrielaRSLuz/output/github-snake.svg)
