@@ -18,3 +18,8 @@ Here are some ideas to get you started:
 It name is Niki, and I will try to come feed her whenever as possible.
 
 ![Snake animation](https://raw.githubusercontent.com/GabrielaRSLuz/GabrielaRSLuz/output/github-snake.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GabrielaRSLuz/GabrielaRSLuz/output/dist/github-snake-dark.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/GabrielaRSLuz/GabrielaRSLuz/output/dist/github-snake.svg" />
+</picture>
